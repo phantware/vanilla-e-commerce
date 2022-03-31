@@ -359,18 +359,18 @@ nav {
   cursor: pointer;
 }
 
-.footer {
+footer {
   display: flex;
 }
+
 .footerLeft {
   flex: 2;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: 50px;
 }
 .fMenuTitle {
-  font-style: 16px;
+  font-size: 16px;
 }
 .fList {
   padding: 0;
@@ -379,14 +379,15 @@ nav {
 .fListItem {
   margin-bottom: 10px;
   color: gray;
+  cursor: pointer;
 }
 
 .footerRight {
   flex: 1;
-  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 50px;
 }
 .fInput {
   padding: 5px;
@@ -404,7 +405,6 @@ nav {
   height: 20px;
   margin-right: 10px;
 }
-
 .copyright {
   font-weight: 300;
   font-size: 14px;
