@@ -409,3 +409,21 @@ footer {
   font-weight: 300;
   font-size: 14px;
 }
+
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 20px;
+  }
+  .navBottom {
+    flex-wrap: wrap;
+  }
+  .search {
+    display: none;
+  }
+
+  .menuItem {
+    margin: 20px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
