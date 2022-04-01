@@ -490,4 +490,19 @@ footer {
   .nsItem:nth-child(2) {
     padding: 50px;
   }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerLeft {
+    width: 90%;
+    padding: 20px;
+  }
+  .footerRight {
+    width: 90%;
+    padding: 20px;
+    align-items: center;
+    background-color: whitesmoke;
+  }
 }
