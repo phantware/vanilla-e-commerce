@@ -454,4 +454,28 @@ footer {
   .features {
     flex-direction: column;
   }
+
+  .product {
+    clip-path: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .productImg {
+    width: 80%;
+  }
+  .productDetails {
+    width: 100%;
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+  }
+  .productTitle {
+    font-size: 50px;
+    margin: 0;
+  }
 }
