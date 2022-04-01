@@ -450,4 +450,8 @@ footer {
     top: 0;
     right: 0;
   }
+
+  .features {
+    flex-direction: column;
+  }
 }
